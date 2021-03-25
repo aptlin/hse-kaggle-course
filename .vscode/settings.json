@@ -1,0 +1,11 @@
+{
+  "python.pythonPath": "/Users/sdll/.virtualenvs/dev/bin/python",
+  "python.formatting.provider": "black",
+  "jupyter.jupyterLaunchTimeout": 240000,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--init-hook",
+    "import sys; sys.path.append('${workspaceFolder}')"
+  ]
+}
